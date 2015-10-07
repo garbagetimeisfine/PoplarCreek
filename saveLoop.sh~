@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd ~/PoplarCreek
+
+for x in 0 1 2 3 4 5
+	 ./speciesVector.sh $x
+	 cat speciesData > speciesName
+	 
